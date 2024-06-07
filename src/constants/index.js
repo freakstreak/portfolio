@@ -25,6 +25,7 @@ import {
   laravel,
   qemu,
   linux,
+  boltsh,
 } from "../assets";
 
 export const navLinks = [
@@ -120,23 +121,23 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed both frontend and backend components for several applications like Doctor Swasth and Resume builder.",
+      "Utilized a range of technologies, including Next.js, React.js, Node.js, Gatsby.js and GraphQL to achieve project objectives.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "SDE 1 Developer",
+    title: "Software Engineer 3 Developer",
     company_name: "GeekyAnts",
     icon: geekyAnts,
     iconBg: "#383E56",
     date: "Aug 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to a diverse range of open-source projects, including 'Bolt,' 'Gluestack,' a comprehensive full-stack framework.",
+      "Developed full-stack dashboard apps for admin and user needs",
+      "Developed Seal, which is a hosting service optimized and built for gluestack apps by the creators of gluestack.",
+      "Collaborated with a team of developers to create high-quality products.",
     ],
   },
 ];
@@ -228,25 +229,33 @@ const projects = [
     source_code_link: "https://github.com/freakstreak/geekdocs",
   },
   {
-    name: "Trip Guide",
+    name: "bolt.sh",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Bolt.sh provides expert cloud migration, management, DevOps, automation, and security, ensuring scalable, cost-efficient, and high-performing solutions.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "openstack",
         color: "pink-text-gradient",
       },
+      {
+        name: "redis",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "gray-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: boltsh,
+    source_code_link: "https://bolt.sh/",
   },
 ];
 

@@ -38,6 +38,7 @@ import geekdocs from "./project/geekdocs.png";
 
 import linkedin from "./linkedin.png";
 import twitter from "./twitter.png";
+import boltsh from "./boltsh.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   tripguide,
   bolt,
   geekdocs,
+  boltsh,
 };
