@@ -128,7 +128,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer 3 Developer",
+    title: "Software Engineer 3",
     company_name: "GeekyAnts",
     icon: geekyAnts,
     iconBg: "#383E56",
