@@ -13,6 +13,7 @@ import {
   docker,
   medpiper,
   geekyAnts,
+  servicenow,
   tripguide,
   bolt,
   geekdocs,
@@ -132,12 +133,24 @@ const experiences = [
     company_name: "GeekyAnts",
     icon: geekyAnts,
     iconBg: "#383E56",
-    date: "Aug 2022 - Present",
+    date: "Aug 2022 - Jun 2025",
     points: [
       "Contributed to a diverse range of open-source projects, including 'Bolt,' 'Gluestack,' a comprehensive full-stack framework.",
       "Developed full-stack dashboard apps for admin and user needs",
       "Developed Seal, which is a hosting service optimized and built for gluestack apps by the creators of gluestack.",
       "Collaborated with a team of developers to create high-quality products.",
+    ],
+  },
+  {
+    title: "Software Engineer 2",
+    company_name: "Servicenow",
+    icon: servicenow,
+    iconBg: "#E6DEDD",
+    date: "Jun 2025 - Present",
+    points: [
+      "Working on the Now Platform, focusing on enhancing user experience and functionality through innovative solutions.",
+      "Collaborating with cross-functional teams to deliver high-quality software that meets client needs and industry standards.",
+      "Implementing best practices in coding, testing, and deployment to ensure robust and scalable applications.",
     ],
   },
 ];
