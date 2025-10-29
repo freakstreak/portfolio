@@ -28,6 +28,7 @@ import linux from "./tech/linux.png";
 
 import medpiper from "./company/medpiper.svg";
 import geekyAnts from "./company/geekyAnts.svg";
+import servicenow from "./company/servicenow.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -71,6 +72,7 @@ export {
   linux,
   medpiper,
   geekyAnts,
+  servicenow,
   carrent,
   jobit,
   tripguide,
